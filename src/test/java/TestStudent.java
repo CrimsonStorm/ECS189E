@@ -52,9 +52,9 @@ public class TestStudent {
     }
 
 
-    //Test case to make sure a an Instructor can't have more than 2 classes.
-    // assertNull should return true.
-    // After testing this is a bug.
+    //Test case to make sure a student can drop a class.
+    // assertFalse should return true.
+    // After testing this is not a bug.
     @Test
     public void testDropClass(){
         this.admin.createClass("Test3", 2017, "Instructor", 2);
